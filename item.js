@@ -1,23 +1,23 @@
-let productName =
-        document.getElementById("product-name").textContent;
+// let productName =
+//         document.getElementById("product-name").textContent;
 
-    dataLayer.push({
-        ecommerce: {
-            currencyCode: "RUB",
-            detail: {
-                products: [
-                    {
-                        id: "12345",
-                        name: productName,
-                        price: 1345.67,
-                        brand: "Skyrim",
-                        category: "Swords",
-                        quantity: 1
-                    }
-                ]
-            }
-        }
-    });
+//     dataLayer.push({
+//         ecommerce: {
+//             currencyCode: "RUB",
+//             detail: {
+//                 products: [
+//                     {
+//                         id: "12345",
+//                         name: productName,
+//                         price: 1345.67,
+//                         brand: "Skyrim",
+//                         category: "Swords",
+//                         quantity: 1
+//                     }
+//                 ]
+//             }
+//         }
+//     });
 
 
 document.getElementById("buyButton").onclick = function () {
